@@ -6,6 +6,7 @@ public class View extends javax.swing.JFrame {
 
     public View() {
         initComponents();
+        setLocationRelativeTo(null);
     }
     
     CarroController carro = new CarroController();
